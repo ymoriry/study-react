@@ -7,9 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export function Headline(props) {
   return (
     <div className={styles.description}>
-        <p>
-            {props.page} page
-        </p>
+        {props.children}
         <div>
             <a
                 href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
