@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "./Links.module.css";
+import styles from "@/src/components/Links/Links.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ const ITEMS = [
   },
   {
     href: "https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app",
-    title: "Deploy <span>-&gt;</span>",
+    title: "Deploy →",
     description: "Instantly deploy your Next.js site to a shareable URL with&nbsp;Vercel."
   }
 ]
